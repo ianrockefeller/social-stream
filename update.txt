@@ -1,0 +1,2 @@
+0 */1 * * * /usr/bin/php /opt/app/stream/updateRss.php
+*/15 * * * * /usr/bin/php /opt/app/stream/updateStream.php

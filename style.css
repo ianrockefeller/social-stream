@@ -1,0 +1,71 @@
+/* CSS Document */
+
+body {
+  margin:0px;
+  padding:0px;
+}
+
+#mainContainer {
+  width:100%;
+}
+
+#streamContainer {   
+  width:65%;
+/*  
+  margin: 0px auto;
+*/
+}
+
+#navBar {
+  color:white;
+}
+
+.links {
+  width:100%;
+  top:0;
+  position:fixed;
+  list-style:none;
+  margin:0;
+  /*float:left;*/
+  padding:0;
+  overflow:hidden;
+  background-color:#000000;
+}
+
+.links li {
+  float:left;
+}
+
+.links a:link{
+  display:block;
+  padding:5px;
+  font-weight:bold;
+  color:#FFFFFF;
+  background-color:#000000;
+  text-align:center;
+  text-decoration:none;
+}
+
+.links a:visited  {
+  display:block;
+  padding:5px;
+  font-weight:bold;
+  color:#FFFFFF;
+  background-color:#000000;
+  text-align:center;
+  text-decoration:none;
+}
+
+#login {
+  padding:5px;
+  float:right;
+}
+
+#streamContainer a {
+	color:#000000;
+	text-decoration:none;
+}
+
+
+
+
